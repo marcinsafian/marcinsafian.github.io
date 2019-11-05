@@ -1,17 +1,17 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
 
   var apiRoot = 'https://sleepy-wildwood-29865.herokuapp.com/v1/task_crud/tasks/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
- */
+ /*
 
   $(document).ready(function() {
     const apiRoot = 'http://localhost:8080/v1/task_crud/tasks/';;
     const trelloApiRoot = 'http://localhost:8080/v1/trello/';
     const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
     const $tasksContainer = $('[data-tasks-container]');
-
+*/
     var availableBoards = {};
     var availableTasks = {};
 
