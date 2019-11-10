@@ -114,7 +114,7 @@ $(document).ready(function() {
     var requestUrl = apiRoot;
 
     $.ajax({
-      url: requestUrl  + ({
+      url: requestUrl  + $.param({
         taskId: taskId
       }),
       method: 'DELETE',
