@@ -3,7 +3,7 @@ $(document).ready(function() {
  const apiRoot = 'https://sleepy-wildwood-29865.herokuapp.com/v1/task_crud/tasks/';
   //var apiRoot = 'http://localhost:8080/v1/task_crud/tasks/';
   //const trelloApiRoot = 'http://localhost:8080/v1/trello/';
-    const trelloApiRoot = 'https://trello.com/safian4/';
+    const trelloApiRoot = 'https://trello.com/safian4/boards/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
