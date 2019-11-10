@@ -115,8 +115,8 @@ $(document).ready(function() {
 
     $.ajax({
       url: requestUrl  + (
-        taskId: taskId
-      ),
+        taskId
+      }),
       method: 'DELETE',
       success: function() {
         parentEl.slideUp(400, function() { parentEl.remove(); });
